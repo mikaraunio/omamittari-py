@@ -1,0 +1,14 @@
+*.pyc
+*~
+.DS_Store
+nohup.out
+.*.sw?
+.sw?
+*.iml
+.tags
+tags
+dist/
+build/
+*.egg-info
+tmp/
+omamittari.ini

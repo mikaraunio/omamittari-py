@@ -1,0 +1,4 @@
+[authentication]
+username = myusername
+api_token = myapitoken
+subscription_key = mysubscriptionkey
