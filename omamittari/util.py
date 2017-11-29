@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from datetime import datetime
+from datetime import datetime, date
 
 
 def make_params(args, nmax=None):
@@ -23,7 +23,7 @@ def stringify(arg):
 
     if isinstance(arg, (tuple, list)):
         s = ",".join((str(n) for n in arg))
-    elif isinstance(arg, datetime):
+    elif isinstance(arg, (datetime, date)):
         s = arg.strftime("%Y-%m-%d")
     else:
         s = str(arg)
